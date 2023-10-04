@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+}
+header {
+  display: flex;
+  background-color: #2874f0;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  min-width: 124px;
+  height: 100%;
+}
+.more-options {
+  display: flex;
+  gap: 25px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 550;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-action {
+  width: 100%;
+  height: 36px;
+  border: 0;
+  outline: 0;
+  padding: 0px 16px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.btn-search {
+  height: 36px;
+  border: 0;
+  outline: 0;
+  padding: 0px 16px;
+  cursor: pointer;
+  color: #2874f0;
+  font-size: 19px;
+  background-color: white;
+}
+.flip-logo {
+  font-size: 11px;
+  font-family: Roboto, Arial, sans-serif;
+  margin-right: 10px;
+}
+.image-options {
+  display: flex;
+}
+div.product-items > img {
+  height: 64px;
+  width: 64px;
+}
+.product-list {
+  display: flex;
+  width: 100%;
+  min-height: 40px;
+  max-height: 1280px;
+  justify-content: space-between;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  letter-spacing: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.porduct-names {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  box-sizing: border-box;
+  display: block;
+  position: sticky;
+  margin: 0 0 8px 0;
+}
+.product-items {
+  padding: 12px 8px;
+  margin: 0;
+}
+.img-name {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 0 14px 0 14px;
+}

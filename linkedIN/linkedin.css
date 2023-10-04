@@ -1,0 +1,636 @@
+.right-div {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 30px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar img {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+.vl {
+  border-left: 1px solid silver;
+  height: 50px;
+}
+
+#text {
+  height: 28px;
+  width: 100%;
+  padding-left: 40px;
+  font-size: 16px;
+  font-family: inherit;
+  background-color: #eef3f8;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+}
+.search-btn {
+  display: flex;
+  position: relative;
+}
+.fa-search {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-size: 17px;
+  color: gray;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+.home-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-txt {
+  max-width: 90px;
+  color: rgb(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+}
+#ember16 {
+  border-radius: 50px;
+}
+#ember1166 {
+  border-radius: 50px;
+  margin: -35px 0px 0px 79px;
+  border: 2px solid var(--color-background-container);
+}
+hr.solid {
+  border-top: 1px solid #bbb;
+}
+
+.profile {
+  /* gap: 15px; */
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 9px;
+}
+.recent-left-botton-div {
+  position: sticky;
+  top: 80px;
+}
+#ember410 {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+#post {
+  height: 40px;
+  width: 100%;
+  border-radius: 50px;
+}
+.post-img-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.post-options img {
+  height: 34px;
+  width: 44px;
+}
+.post-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 13px 10px 13px 10px;
+  margin-top: 10px;
+}
+.all-data-container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 25px;
+}
+.main-right-container {
+  width: 300px;
+  margin-top: 25px;
+}
+.Linkedin-news {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  height: 380px;
+  border-radius: 9px;
+}
+.post-and-photo {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.main-mid-div {
+  margin-top: 25px;
+  /* width: 400px; */
+}
+.start-post-input-box {
+  padding: 25px;
+  background-color: white;
+  height: 140px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 9px;
+}
+.name-and-profile {
+  margin: 20px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  height: 50px;
+}
+.profile1 {
+  height: 60px;
+  background-color: aquamarine;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.job-profile {
+  font-size: 15px;
+  margin: 4px 2px 4px 2px;
+}
+.Impressions {
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+  justify-content: center;
+  margin: 4px 0px 4px 0px;
+}
+.num-of-impressions {
+  color: #004182;
+}
+.profile-details {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid silver;
+}
+.profile-insights {
+  color: rgb(0, 0, 0, 0.6);
+}
+.Premiun-for-insights {
+  border-bottom: 1px solid silver;
+  height: 60px;
+  padding-left: 15px;
+}
+.My-items {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 50px;
+  padding-left: 15px;
+}
+.news-head-para {
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 15px;
+}
+.Linkedin-news p {
+  margin: 10px 0px 15px 0px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+  color: rgb(0, 0, 0, 0.6);
+}
+.post-and-photo img {
+  margin-right: 10px;
+}
+#post {
+  padding-left: 15px;
+  border: 1px solid silver;
+  outline: 0;
+  font-size: 14px;
+  height: 44px;
+}
+.fa-image {
+  color: rgb(80, 80, 199);
+  font-size: 20px;
+  margin-right: 5px;
+}
+.fa-play {
+  color: rgb(49, 80, 49);
+  font-size: 20px;
+  margin-right: 5px;
+}
+.fa-calendar {
+  color: rgb(222, 197, 151);
+  font-size: 20px;
+  margin-right: 5px;
+}
+.fa-book {
+  color: rgb(180, 114, 114);
+  font-size: 20px;
+  margin-right: 5px;
+}
+.img-name {
+  color: rgb(0, 0, 0, 0.6);
+  font-weight: 550;
+}
+.Linkedin-news ul li {
+  font-weight: 540;
+}
+.on-hover:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+.name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.recent-hast-tags {
+  background-color: white;
+  border-radius: 9px;
+  margin-top: 8px;
+}
+
+.main-left-side-container {
+  margin-top: 25px;
+  width: 240px;
+}
+.ad {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 17px;
+}
+.img-offer-cmpy {
+  display: flex;
+  gap: 20px;
+}
+.job-news {
+  background-color: white;
+  border-radius: 9px;
+  margin-top: 8px;
+  height: 264px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 80px;
+}
+.job-news :hover {
+  cursor: pointer;
+}
+.ad1 {
+  position: relative;
+  right: -130px;
+  top: -35px;
+}
+.da-card-creative__profile-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.bit-img {
+  height: 70px;
+  width: 70px;
+}
+.recent-hast-tags ul {
+  padding-left: 0px;
+}
+.fa-hashtag {
+  color: rgb(104, 100, 100);
+  font-size: 4px;
+}
+.grps {
+  height: 35px;
+}
+
+.Discover-more {
+  margin-top: 20px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  border-top: 1px solid silver;
+  color: grey;
+}
+.Discover-more:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+.ul-recent li {
+  padding: 4px 15px 4px 15px;
+  font-family: none;
+  color: grey;
+  font-size: 16px;
+}
+.ul-recent :hover {
+  cursor: pointer;
+  background-color: #004182;
+}
+.Recent {
+  padding: 15px 10px 0px 15px;
+  font-family: none;
+  color: gray;
+}
+
+.events {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.ad-line {
+  font-size: 15px;
+  font-family: none;
+  color: grey;
+  margin-bottom: 10px;
+}
+.Edge {
+  margin-top: 15px;
+}
+.follow-btn {
+  background-color: white;
+  padding: 0px;
+  height: 35px;
+  width: 70px;
+  border-radius: 50px;
+  border: 1px solid #004182;
+  color: #004182;
+  font-weight: 600;
+  margin-top: 15px;
+}
+footer ul {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+footer ul li {
+  font-size: 16px;
+  color: rgb(0, 0, 0, 0.6);
+}
+footer {
+  position: sticky;
+  top: 365px;
+}
+footer ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.Corporation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.horizontal-sep {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.comment img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px 25px 10px 25px;
+}
+.linkedIn-posts-by-user hr {
+  margin: 0;
+}
+.user-info-content img {
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+}
+.user-info-content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.post img {
+  height: 500px;
+  width: 475px;
+}
+.user-details-name {
+  display: flex;
+  color: black;
+  font-weight: 600;
+  gap: 8px;
+}
+.active-time {
+  display: flex;
+  gap: 8px;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+  color: rgb(0, 0, 0, 0.6);
+}
+#user-details {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin-left: 6px;
+}
+.user-info-details-and-follow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px 10px 25px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(224, 224, 224);
+}
+.profile-and-post-content {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  margin-top: 9px;
+}
+.follow-and-plus {
+  color: #004182;
+  cursor: pointer;
+  font-size: 20px;
+}
+.post-caption {
+  padding: 0px 25px 0px 25px;
+  width: 425px;
+  height: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  -webkit-box-pack: start;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+  color: rgb(0, 0, 0, 0.6);
+}
+.apply {
+  white-space: nowrap;
+  width: 225px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+  color: rgb(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+.post-caption:hover {
+  overflow: visible;
+}
+.comment-and-hor-dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+.likes-comments-icons {
+  display: flex;
+  align-items: center;
+}
+.like-numbers {
+  font-size: 12px;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+  color: rgb(0, 0, 0, 0.6);
+}
+.num-of-comments-and-repost {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: -apple-system, system-ui, BlinkMacSystemF;
+  color: rgb(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+.likes-comments-repost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px 0px 25px;
+}
+.retweet i {
+  font-size: 24px;
+}
+
+.thumb-nail {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.all-thumb-nails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+.retweet i {
+  font-size: 24px;
+}
+.thumb-nail:hover {
+  background-color: blue;
+}
+
+.profile-and-post-content {
+  border-radius: 9px;
+}
+.message-left-bottom img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50px;
+}
+.message-bottom-profile {
+  position: relative;
+}
+.message-bottom-profile i {
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  right: -2px;
+}
+.Messaging,
+.Messaging-three-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.bluee {
+  color: #004182;
+  padding-left: 15px;
+}
+.show-more {
+  padding-left: 15px;
+  color: gray;
+}
+.message-left-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  right: -10px;
+  top: 535px;
+  margin: 10px;
+  padding: 10px;
+  width: 320px;
+  border-radius: 9px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+}
+.Messaging-three-icons > i {
+  font-size: 24px;
+}
+.mobile-header,
+.nav-bar {
+  display: none;
+}
+.mobile-header img {
+  height: 34px;
+  width: 34px;
+}
+@media screen and (max-width: 480px) {
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+}

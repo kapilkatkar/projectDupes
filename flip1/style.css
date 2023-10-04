@@ -1,0 +1,50 @@
+.first-div {
+  background-color: rgb(205, 205, 176);
+  padding: 3px;
+  margin: 10px;
+  font-weight: bold;
+}
+.ul-list {
+  font-size: xx-small;
+  display: flex;
+  gap: 20px;
+  padding-left: 3px;
+  margin: 10px;
+  color: gray;
+}
+.para {
+  margin: 10px;
+  padding: 3px;
+}
+.sec-div {
+  padding: 3px;
+  margin: 10px;
+  color: grey;
+}
+.specil {
+  padding: 3px;
+  margin: 10px;
+}
+#span2 {
+  color: grey;
+  font-size: 16px;
+}
+#span3 {
+  color: green;
+}
+.list-2 {
+  padding: 3px;
+  margin: 10px;
+  font-size: small;
+}
+.span5 {
+  margin: 10px;
+  padding: 3px;
+}
+.warranty {
+  margin: 10px;
+  padding: 3px;
+  display: flex;
+  gap: 20px;
+  font-size: small;
+}
