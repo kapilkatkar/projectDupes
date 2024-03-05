@@ -496,9 +496,6 @@ body {
   color: rgb(0, 0, 0, 0.6);
   font-size: 14px;
 }
-.post-caption:hover {
-  overflow: visible;
-}
 .comment-and-hor-dots {
   display: flex;
   align-items: center;
